@@ -1,0 +1,95 @@
+/* home.component.css */
+
+body {
+  background: linear-gradient(to right, #fdd5a1, #c2e9fb)
+}
+.home-container {
+    display: flex;
+    /* flex: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #f2a1fd, #e5a9f7); /* Pastel gradient background */
+    
+    padding: 20px; /* Add padding as needed */
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+  
+  .left-section {
+    order: 2;
+  }
+  
+  .profile-pic {
+    display: flex;
+    width: 100%;
+    max-width: 1000px; /* Set a maximum width if needed */
+    min-width: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  .right-section {
+    order: 1;
+    margin-left: 20px; /* Adjust the spacing as needed */
+  }
+
+    p {
+    /* Add any additional styles for your paragraph */
+    color: #5c5656; /* Adjust text color as needed */
+    /*font: italic bold 24px/1.5 'Parisienne', cursive;*/
+
+   
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+      
+      .button {
+        
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px; /* Make the buttons round */
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none; /* Remove default underline for links */
+        background: linear-gradient(to right, #fdd5a1, #c2e9fb); /* Pastel gradient background for buttons */
+        transition: background 0.3s ease; /* Add a smooth transition effect */
+      }
+      
+      /* Hover effect to make the buttons slightly darker on hover */
+      .button:hover {
+        background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Same gradient for hover effect */
+        filter: brightness(0.9);
+      }
+
+      @media (min-width: 768px) {
+        .home-container {
+          flex-direction: row; /* Change to a row layout on larger screens */
+        }
+      
+        .left-section,
+        .right-section {
+          order: initial;
+          margin-bottom: 0; /* Reset margin for larger screens */
+        }
+      
+        .buttons {
+          flex-direction: row; /* Display buttons in a row on larger screens */
+        }
+      } 
+      
+      @media screen and (max-width: 400px) {
+        .home-container{
+          width: 50%;
+          
+        }
+      }
+
+     
+
+      

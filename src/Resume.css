@@ -1,0 +1,105 @@
+/* Resume.css */
+
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #f2a1fd, #e5a9f7);
+    
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .section-content {
+    margin-top: 10px;
+  }
+  
+  .education,
+  .experience {
+    margin-bottom: 20px;
+    
+  }
+  
+  .education,
+  .experience,
+  .skills,
+  .awards{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .skills {
+    margin-bottom: 0;
+  }
+  
+  .skill-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    margin: 5px;
+    padding: 8px;
+    background: linear-gradient(to right, #fdd5a1, #c2e9fb);
+   border-radius: 5px;
+  }
+  
+  /* Resume.css */
+
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add the following styles for centering the button */
+  .download-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .down {
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Make the buttons round */
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none; /* Remove default underline for links */
+    background: linear-gradient(to right, #f2a1fd, #e5a9f7);; /* Pastel gradient background for buttons */
+    transition: background 0.3s ease; /* Add a smooth transition effect */
+    
+  }
+
+  .down:hover {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Same gradient for hover effect */
+    filter: brightness(0.9);
+  }
+  

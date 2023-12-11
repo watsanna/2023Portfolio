@@ -1,0 +1,29 @@
+/* Navbar.css */
+
+.navbar {
+    background: linear-gradient(to right, #fca22c, #31bbfb); /* Change to your desired color */
+    color: #fff; /* Change to the text color you prefer */
+    /* Add any additional styles as needed */
+    
+  }
+  
+  .navbar a {
+    color: #fff; /* Change the color of the navigation links */
+    /* Add any additional styles for the navigation links as needed */
+  }
+  
+  .navbar a:hover {
+    background-color: #f2a1fd; /* Change to the hover color you prefer */
+    color: #fff; /* Change the color of the navigation links on hover */
+  }
+
+  .navbar-nav {
+    margin: auto;
+  }
+  
+  .nav-link {
+    margin-right: 15px; /* Adjust spacing between links if needed */
+  }
+  .navbar-brand{
+    padding: 20px;
+  }

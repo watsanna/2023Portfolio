@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #fca22c, #31bbfb);
+    color: #fff;
+  }
+  
+  .contact-info,
+  .social-media-links {
+    margin-top: 10px;
+  }
+  
+  .contact-info p,
+  .social-media-links p,
+  .social-media-links a {
+    margin: 5px 0;
+  }
+  
+  .social-media-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social-media-links a:hover {
+    text-decoration: underline;
+  }
+  
