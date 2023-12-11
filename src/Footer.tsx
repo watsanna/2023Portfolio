@@ -28,6 +28,14 @@ const Footer: React.FC = () => (
       <a href="https://www.instagram.com/lijahara/" target="_blank" rel="noopener noreferrer" className="social-link">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
+
+        <a> </a>
+
+     {/* Github */}
+     <a href="https://github.com/watsanna" target="_blank" rel="noopener noreferrer" className="social-link">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
+    
     </div>
     <p>&copy; 2023 Annaliese Watson's Website. All rights reserved.</p>
   </footer>
